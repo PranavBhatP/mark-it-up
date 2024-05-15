@@ -40,14 +40,14 @@ const Home: React.FC = () => {
                     </div>
                     <a href = "/editor" style = {{color: "#17CF97", borderColor: "#17CF97"}} className = "border-2 hover:scale-110 rounded-lg border-green-500 w-auto p-2 h-10 text-green-500">Get Started</a>
                     <div className='h-72 w-1 rounded-lg animate-background bg-gradient-to-b from-black via-blue-500 to-green-300'></div>
-                    <a style={{backgroundColor: "#17CF97"}} className = "z-10 text-white text-3xl text-center w-16 rounded-full p-3 scroll-smooth" href = "#features">↓</a>
+                    <a style={{backgroundColor: "#17CF97"}} className = "animate-bounce z-10 text-white text-3xl text-center w-16 rounded-full p-3 scroll-smooth" href = "#features">↓</a>
                 </div>
             </RevealOnScroll>
             <RevealOnScroll>
                 <div className="h-screen flex flex-col items-center gap-y-40" id="features">
-                    <h1 className="text-7xl text-white font-mono">Features</h1>
+                    <h1 className="text-7xl text-white font-mono"><b>Features👇</b></h1>
                     <div className="grid grid-cols-3 grid-rows-2 gap-6 h-3/5 px-40 w-full">
-                        <div className='p-2 flex items-center flex-col col-span-1 row-span-2 bg-gray-700 shadow-lg border-gray-500 border rounded-lg transition transform duration-200 hover:scale-105'>
+                        <div className='p-2 flex items-center flex-col col-span-1 row-span-2 bg-gray-900 shadow-lg border-gray-500 border rounded-lg transition transform duration-200 hover:scale-105'>
                             <h4 style={{ color: "#17CF99" }} className="text-center font-mono p-4 text-2xl">Create Markdowns!</h4>
                             <ul className="p-5 space-y-10 text-white">
                                 <li className="text-lg text-center">Markdowns are a form of code enabling you to create vibrant documents to showcase info, in a styled and professional manner.</li>
@@ -55,20 +55,20 @@ const Home: React.FC = () => {
                             </ul>
                             <img alt = "create" src = "../../public/img1.png" className = "rounded-lg object-contain min-h-0"/>
                         </div>
-                        <div className='p-2 flex items-center justify-center flex-col col-span-1 row-span-1 bg-gray-700 shadow-lg border-gray-500 border rounded-lg backdrop-blur-lg transition transform duration-200 hover:scale-105'>
+                        <div className='p-2 flex items-center justify-center flex-col col-span-1 row-span-1 bg-gray-900 shadow-lg border-gray-500 border rounded-lg backdrop-blur-lg transition transform duration-200 hover:scale-105'>
                             <h4 style={{ color: "#17CF97" }} className="text-center font-mono p-4 text-2xl">Upload Markdowns!</h4>
                             <ul className="p-5 text-white">
                                 <li className="text-lg text-center">Upload all the markdowns, you want!</li>
                             </ul>
                             <img alt = "upload" src = "../../public/img2.png" className = "rounded-lg object-contain min-h-0"/>
                         </div>
-                        <div className='p-2 flex items-center justify-center flex-col col-span-1 row-span-1 bg-gray-700 shadow-lg border-gray-500 border rounded-lg backdrop-blur-lg transition transform duration-200 hover:scale-105'>
+                        <div className='p-2 flex items-center justify-center flex-col col-span-1 row-span-1 bg-gray-900 shadow-lg border-gray-500 border rounded-lg backdrop-blur-lg transition transform duration-200 hover:scale-105'>
                             <h4 style={{ color: "#17CF97" }} className="text-center font-mono p-4 text-2xl">Stylised Markdowns</h4>
                             <ul className="p-5 text-white">
                                 <li className="text-xl text-center space-x-2">A powerful editor lends a dynamic interface, to effortlessly preview markdown.</li>
                             </ul>
                         </div>
-                        <div className='p-2 flex items-center justify-center flex-col col-span-2 row-span-1 bg-gray-700 shadow-lg border-gray-500 border rounded-lg backdrop-blur-lg transition transform duration-200 hover:scale-105'>
+                        <div className='p-2 flex items-center justify-center flex-col col-span-2 row-span-1 bg-gray-900 shadow-lg border-gray-500 border rounded-lg backdrop-blur-lg transition transform duration-200 hover:scale-105'>
                             <h4 style={{ color: "#17CF97" }} className="text-center font-mono p-4 text-2xl">Enhance your markdowns with the power of AI</h4>
                             <ul className="p-5 text-white">
                                 <li className="text-lg">Bring your words to life, with AI summarisers, powered by Open AI GPT-4o</li>
